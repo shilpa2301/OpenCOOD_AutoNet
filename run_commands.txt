@@ -1,0 +1,15 @@
+python opencood/tools/train.py --hypes_yaml opencood/checkpoints_test/voxelnet_intermediate_fusion.yaml --model_dir  opencood/checkpoints_test --half
+
+Inference:
+python opencood/tools/inference.py --model_dir opencood/checkpoints_test --fusion_method intermediate [--show_vis] [--show_sequence]
+
+python opencood/tools/inference.py --model_dir opencood/checkpoints_test --fusion_method intermediate
+
+
+Results
+
+Default pretrained model for Cobevt intermediate fusion Detection non compressed:
+The Average Precision at IOU 0.3 is 0.95, The Average Precision at IOU 0.5 is 0.95, The Average Precision at IOU 0.7 is 0.92
+
+Default pretrained model for Cobevt intermediate fusion Detection compressed:
+The Average Precision at IOU 0.3 is 0.93, The Average Precision at IOU 0.5 is 0.93, The Average Precision at IOU 0.7 is 0.91
