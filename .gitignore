@@ -139,5 +139,5 @@ checkpoints
 DCOS.md
 spconv/
 
-ckp_*/
-checkpoints_*/
+opencood/ckp_*/
+opencood/checkpoints_*/
