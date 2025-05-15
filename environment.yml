@@ -16,3 +16,4 @@ dependencies:
     - einops
     - cumm
     - timm
+    - spconv-cu118
